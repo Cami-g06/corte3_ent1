@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(Corte3Entrega1)
+set(CMAKE_CXX_STANDARD 17)
+add_executable(UndergroundSystem leetcode/1396_design_underground_system/solution.cpp)
+add_executable(ATMMachine leetcode/2241_design_atm_machine/solution.cpp)
+add_executable(AuctionSystem leetcode/3815_design_auction_system/solution.cpp)
+add_executable(Meetup exercism/meetup/meetup.cpp)
+add_executable(Clock exercism/clock/clock.cpp)
